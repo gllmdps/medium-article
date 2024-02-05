@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+@media(max-width: 1200px) {
+  .container {
+    width: 992px;
+  }
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 300px;
+  }
+}
+
+body{
+  margin: 0;
+}
+
+div{
+  display: block;
+}
+
+.banner{
+  background-image: url(https://images.pexels.com/photos/326337/pexels-photo-326337.jpeg?cs=srgb&dl=pexels-pixabay-326337.jpg&fm=jpg);
+  background-size: cover;
+  padding: 120px 0;
+}
+
+h1{
+  font-family: 'Poiret One', sans-serif;
+  font-size: 80px;
+  color: beige;
+  text-align: center;
+}
+
+#subtitle{
+  font-family: 'Poiret One', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.container{
+  width: 700px;
+  margin: 50px auto;
+}
+
+h2{
+  color: rgb(54, 54, 54);
+  font-family: 'Poiret One', sans-serif;
+  text-align: left;
+  font-size: 36px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.121);
+}
+
+p{
+  color: rgb(36, 35, 35);
+  font-family: 'Poiret One', sans-serif;
+  font-size: 20px;
+  text-align: left;
+}
+
+a{
+  color: forestgreen;
+  background-color: rgba(0, 100, 0, 0.082);
+  font-family: 'Poiret One', sans-serif;
+  font-size: 24px;
+  text-decoration: none;
+  font-style: italic;
+}
+
+a:hover{
+  color: black;
+  background: linear-gradient(rgba(175, 239, 192, 0.413), rgba(8, 53, 11, 0.532));
+}
